@@ -9,7 +9,7 @@
 <body>
     <header>
         <!--Navigation header-->
-    <nav>
+    <nav class="nav">
         
             <h3 class="nav_name">Raf<span><sub>i</sub></span>d</h3>
             <ul>
@@ -62,14 +62,15 @@
 
 
         </section>
-        <section >
+        <!--Box part -->
+        <section > 
             <!--1st Box-->
             <div class="about_2ndsection">
             <h3 class="section-title">What I do</h3>
             <p class="section-description">I have experienced in multiple Programming languages. like C, C++, java. I have also  experience in markup language - HTML, CSS. I have  done threeProjects on my own. those projects in attached in Github </p><br>
             </div>
         </section>
-
+ 
         <section class="boxes_container">
             <div class="box">
                 <img class="box_icons" src="icons/C.png" alt="C icon"><br>
@@ -113,10 +114,52 @@
                 <p class="box_info">CSS is cascading style sheet. <br>I used css styles in projects. to make the website better.</p>
             </div>
         </section>
+
+        <section class="education">
+            <h2 class="section-title">A Summary of My Resume</h2>
+
+            <h3 class="my_education">My Education</h3><br>
+
+            <h3 class="exm_name">H.S.C</h3>
+            <p class="details">Completed H.S.C at Uttara High School and College in 2017.<br> My G.P.A - 5.00</p><hr><br>
+            <h3 class="exm_name" >S.S.C</h3>
+            <p class="details" >Completed S.S.C at Uttara High School and College in 2019.<br> My G.P.A - 4.30</p><hr><br>
+            <h3 class="exm_name" >B.Sc</h3>
+            <p class="details" >Studying Computer Science & Engineering at North South University since 2020.<br> Current C.G.P.A - 3.09.</p><br><br>
+            
+
+        </section><button  class="cv_download" type="button">Download CV</button><br>
     </main>
 
-    <footer>
+    <footer class="foot_background"><br>
+        <h2 class="messageme" ><b>Let's Message me</b></h2>
+        <div class="footer_block">
+            
         
+        
+         <form  class="forms" action="">
+            <label class="labels" for="name">Full Name : </label>
+            <input class="inputs" type="text" name="name" value=""><br>
+            <label class="labels" class="labels" for="name">Last Name : </label>
+            <input class="inputs" type="text" name="name" value=""><br>
+            <label class="labels" for="email">Email Address:</label>
+            <input class="inputs" type="email" name="email" id=""><br>
+            <label class="labels" for="password">Password : </label>
+            <input class="inputs" type="password" name="password" id=""><br>
+            <legend class="labels" >Message <br> <textarea rows="8" cols="35"></textarea></legend>
+              <button class="cv_download">Submit</button>  
+               
+            
+         </form>
+         <div>
+            <h2 class="lets_connect">Lets Connect</h2>
+            <p class="contact-me">Please fill out the form on this section to contact with me or call between 
+                9:00 A.M and 8.00 P.M ET, Monday through Friday</p>
+           <img  class="social_icon" src="icons/facebook.png" alt="Fb">
+            <img  class="social_icon" src="icons/insta.png" alt="insta">
+            <img  class="social_icon" src="icons/twitter.png" alt="">
+         </div>
+        </div>
     </footer>
 </body>
 </html>
