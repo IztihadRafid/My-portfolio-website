@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgb(252, 241, 226);
+}
+nav{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_name{
+    font-size: 30px;
+}
+span{
+    color: rgb(223, 94, 47);
+    font-size: 35px;
+}
+nav > ul{
+    display: flex;
+    margin-right: 15px ;
+    align-items: center;
+    justify-content: space-around;
+}
+nav >ul> li{
+    list-style: none;
+    margin-right: 20px;
+    
+   
+}
+.hire_me_button{
+    padding: 10px 18px;
+    color: white;
+    background-color: orangered;
+    border-style: none;
+    border-radius: 5px;
+}
