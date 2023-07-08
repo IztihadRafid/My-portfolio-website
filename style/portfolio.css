@@ -13,11 +13,16 @@ header{
     padding-left: 30px;
     margin-left: 50px;
    
-    margin-bottom: 20px;
+    
     padding-bottom: 30px;
+    background-image: url('../image/header_bg.png');
+    padding-bottom: 0px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
 nav{
-    
+    font-size: 25px ;
+    font-weight: bold;
     margin: 0px 30px;
     padding: 10px;
     display: flex;
@@ -25,13 +30,13 @@ nav{
     align-items: center;
 }
 .nav_name{
-    font-size: 34px;
+    font-size: 45px;
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 span{
     color: rgb(223, 94, 47);
-    font-size: 35px;
+    font-size: 48px;
 }
 nav > ul{
     display: flex;
@@ -51,20 +56,102 @@ nav >ul> li{
     background-color: orangered;
     border-style: none;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 /*middle info style*/
+/*Banner*/
 .banner{
     display: flex;
-    padding: 30px 30px 30px 30px;
+    padding: 30px 30px 0px 30px;
     align-items: center;
     justify-content: space-around;
 }
 .profile_pic{
     width: 500px;
-    
-
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-radius: 500px;
 }
 .banner-content{
+
+}
+.banner_greeting{
+    font-size: 35px;
+    font-weight: bold;
+}
+.ownername{
+    font-size: 55px;
+}
+.description_middle{
+    font-size: 25px;
+}
+
+/*About*/
+.about{
+    background-color: antiquewhite;
+    margin:  5% 10% ;
+    padding: 10%;
+     
+}
+.section-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.section-description{
+    text-align: center;
+    font-size: 24px;
+}
+.about_more{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    padding: 20px;
+}
+.list_more{
+    list-style: none;
+    color: rgb(68, 66, 66);
+}
+.about_more_detail{
+    display: flex;
     
+    justify-content: space-between;
+    font-size: 24px;
+}
+a:hover{
+    color: red;
+}
+                            /*2nd section*/
+.about_2ndsection{
+background-color: white;
+margin:  5% 10% ;
+padding: 10%;
+text-align: center;
+}
+                             /*Box*/
+.box{
+  width: 220px;
+  height: 260px;
+  box-shadow: 4px 4px 15px gray;
+  text-align: left;
+  color: black;
+  padding: 15px;
+  background-color: azure;
+  margin-bottom: 2%;
+}
+.box_icons{
+    width: 60px;
+    height: 60px;
+}
+.box_title{
+    font-size: 25px;
+}
+.box_info{
+    font-size: 18px;
+}
+.boxes_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
