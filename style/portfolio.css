@@ -3,18 +3,31 @@
     padding: 0px;
 
 }
+
+/* Navigation style*/
 body{
-    background-color: rgb(252, 241, 226);
+    background-color: white(252, 241, 226);
+}
+header{
+    background-color: antiquewhite;
+    padding-left: 30px;
+    margin-left: 50px;
+   
+    margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 nav{
-    margin-top: 20px;
+    
+    margin: 0px 30px;
     padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .nav_name{
-    font-size: 30px;
+    font-size: 34px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 span{
     color: rgb(223, 94, 47);
@@ -38,4 +51,17 @@ nav >ul> li{
     background-color: orangered;
     border-style: none;
     border-radius: 5px;
+}
+
+/*middle info style*/
+.banner{
+    display: flex;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile_pic{
+    width: 500px;
+    
+
 }
